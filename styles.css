@@ -451,7 +451,6 @@ footer{
 }
 
 /* 
-    TO DO: add styles to the after pseudo-element on the div in this section that will:
         - add content (empty string)
         - make this display as a block-level element
         - make this 50px wide
@@ -487,7 +486,6 @@ footer{
 
 /* For the second paragraph */
 /* 
-    TO DO: add styles to the last paragraph in this section that will:
         - add margin:
             - top: 1rem
             - right: 0
@@ -495,7 +493,7 @@ footer{
             - left: 0
 */
 #section4 p:last-of-type{
-
+    margin: 1rem 0;
 }
 
 /* ------------- SECTION 5 STYLES ---------------- */
@@ -532,7 +530,8 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
-    
+    background: var(--lt-blue) center url("images/puppy-photo.jpg");
+
 }
 
 /* For the fourth div, let's style this like the second div, but let's change the height of the div to 100px, so it fits the height of the image. It will make it look like the image and div are the same height */
